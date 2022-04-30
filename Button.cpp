@@ -1,6 +1,3 @@
-#ifndef _BUTTON_CPP_
-#define _BUTTON_CPP_
-
 #include <Arduino.h>
 #include <stdio.h>
 #include "Button.hpp"
@@ -47,5 +44,3 @@ bool Button::isPressedOnce()
 {
   return this->pressedOnce;
 }
-
-#endif
