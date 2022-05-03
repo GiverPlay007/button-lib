@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <stdio.h>
-#include "Button.hpp"
+#include "Button.h"
 
 Button::Button(byte pin, int debounceDelay)
 {

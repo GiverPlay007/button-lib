@@ -1,5 +1,5 @@
-#ifndef _BUTTON_HPP_
-#define _BUTTON_HPP_
+#ifndef _BUTTON_H_
+#define _BUTTON_H_
 
 class Button
 {
