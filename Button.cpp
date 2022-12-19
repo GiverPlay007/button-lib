@@ -13,7 +13,7 @@ Button::Button(byte pin, int debounceDelay)
   lastTime = 0;
 }
 
-void Button::pool()
+void Button::poll()
 {
   unsigned long now = millis();
   bool state = digitalRead(pin);
